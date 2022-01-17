@@ -1,0 +1,934 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"combine_ball_launcher_bg_body_lod0",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 20.0
+						meshes = 
+						[
+							"combine_ball_launcher_bg_body_lod1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 30.0
+						meshes = 
+						[
+							"combine_ball_launcher_bg_body_lod2",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 55.0
+						meshes = 
+						[
+							"combine_ball_launcher_bg_body_lod3",
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "combine_ball_launcher_physbox"
+						mass_override = 120.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "combine_ball_launcher_physbox_0_mesh"
+						parent_bone = "combine_ball_launcher_physbox"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/combine_ball_launcher_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"combine_ball_launcher_physbox_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "combine_ball_launcher_physbox_1_mesh"
+						parent_bone = "combine_ball_launcher_physbox"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/combine_ball_launcher_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"combine_ball_launcher_physbox_1_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "combine_ball_launcher_physbox_2_mesh"
+						parent_bone = "combine_ball_launcher_physbox"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/combine_ball_launcher_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"combine_ball_launcher_physbox_2_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "combine_ball_launcher_physbox_3_mesh"
+						parent_bone = "combine_ball_launcher_physbox"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/combine_ball_launcher_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"combine_ball_launcher_physbox_3_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "combine_ball_launcher_physbox_4_mesh"
+						parent_bone = "combine_ball_launcher_physbox"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/combine_ball_launcher_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"combine_ball_launcher_physbox_4_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "combine_ball_launcher_physbox_5_mesh"
+						parent_bone = "combine_ball_launcher_physbox"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/combine_ball_launcher_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"combine_ball_launcher_physbox_5_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "combine_ball_launcher_physbox_6_mesh"
+						parent_bone = "combine_ball_launcher_physbox"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/combine_ball_launcher_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"combine_ball_launcher_physbox_6_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "combine_ball_launcher_physbox_7_mesh"
+						parent_bone = "combine_ball_launcher_physbox"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/combine_ball_launcher_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"combine_ball_launcher_physbox_7_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "combine_ball_launcher_physbox_8_mesh"
+						parent_bone = "combine_ball_launcher_physbox"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/combine_ball_launcher_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"combine_ball_launcher_physbox_8_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "combine_ball_launcher_physbox_9_mesh"
+						parent_bone = "combine_ball_launcher_physbox"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/combine_ball_launcher_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"combine_ball_launcher_physbox_9_mesh",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -50.0, -50.0, -0.437903 ]
+								hitbox_maxs = [ 50.0, 53.564114, 13.373899 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_1"
+								hitbox_mins = [ -3.429968, -1.127277, -0.904969 ]
+								hitbox_maxs = [ 2.848781, 8.540295, 29.703785 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_2"
+								hitbox_mins = [ -3.646609, -41.244755, -1.810995 ]
+								hitbox_maxs = [ 2.994409, 1.764229, 11.801267 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_3"
+								hitbox_mins = [ -7.940365, -5.984717, -10.24917 ]
+								hitbox_maxs = [ 7.910071, 3.246325, 1.625115 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_1"
+								hitbox_mins = [ -1.457981, -3.141186, -0.965833 ]
+								hitbox_maxs = [ 8.221208, 3.134885, 29.642916 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_2"
+								hitbox_mins = [ -41.24786, -3.313828, -1.823287 ]
+								hitbox_maxs = [ 1.755525, 3.32384, 11.789 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_3"
+								hitbox_mins = [ -5.982544, -7.997903, -10.2489 ]
+								hitbox_maxs = [ 3.611133, 9.316059, 1.726066 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_1"
+								hitbox_mins = [ -3.2066, -8.503875, -0.830562 ]
+								hitbox_maxs = [ 3.064426, 1.220217, 29.778187 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_2"
+								hitbox_mins = [ -3.330152, -1.772162, -1.822222 ]
+								hitbox_maxs = [ 3.316717, 41.249226, 11.790062 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_3"
+								hitbox_mins = [ -9.367509, -2.925437, -10.249763 ]
+								hitbox_maxs = [ 7.946457, 6.35086, 1.592631 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere1"
+								hitbox_mins = [ -21.43895, 0.0, 0.0 ]
+								hitbox_maxs = [ 21.43895, 26.39032, 27.888985 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere2"
+								hitbox_mins = [ 0.0, -21.390404, -0.026087 ]
+								hitbox_maxs = [ 26.56426, 25.185301, 27.837185 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere3"
+								hitbox_mins = [ -25.185308, -26.564272, -0.024572 ]
+								hitbox_maxs = [ 21.390402, 0.0, 27.838699 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -50.0, -50.0, -0.437903 ]
+								hitbox_maxs = [ 50.0, 53.564114, 13.373899 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_1"
+								hitbox_mins = [ -3.429968, -1.127277, -0.904969 ]
+								hitbox_maxs = [ 2.848781, 8.540295, 29.703785 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_2"
+								hitbox_mins = [ -3.646609, -41.244755, -1.810995 ]
+								hitbox_maxs = [ 2.994409, 1.764229, 11.801267 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_3"
+								hitbox_mins = [ -7.940365, -5.984717, -10.24917 ]
+								hitbox_maxs = [ 7.910071, 3.246325, 1.625115 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_1"
+								hitbox_mins = [ -1.457981, -3.141186, -0.965833 ]
+								hitbox_maxs = [ 8.221208, 3.134885, 29.642916 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_2"
+								hitbox_mins = [ -41.24786, -3.313828, -1.823287 ]
+								hitbox_maxs = [ 1.755525, 3.32384, 11.789 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_3"
+								hitbox_mins = [ -5.982544, -7.997903, -10.2489 ]
+								hitbox_maxs = [ 3.611133, 9.316059, 1.726066 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_1"
+								hitbox_mins = [ -3.2066, -8.503875, -0.830562 ]
+								hitbox_maxs = [ 3.064426, 1.220217, 29.778187 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_2"
+								hitbox_mins = [ -3.330152, -1.772162, -1.822222 ]
+								hitbox_maxs = [ 3.316717, 41.249226, 11.790062 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_3"
+								hitbox_mins = [ -9.367509, -2.925437, -10.249763 ]
+								hitbox_maxs = [ 7.946457, 6.35086, 1.592631 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere1"
+								hitbox_mins = [ -21.43895, 0.0, 0.0 ]
+								hitbox_maxs = [ 21.43895, 26.39032, 27.888985 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere2"
+								hitbox_mins = [ 0.0, -21.390404, -0.026087 ]
+								hitbox_maxs = [ 26.56426, 25.185301, 27.837185 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere3"
+								hitbox_mins = [ -25.185308, -26.564272, -0.024572 ]
+								hitbox_maxs = [ 21.390402, 0.0, 27.838699 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -50.0, -50.0, -0.437903 ]
+								hitbox_maxs = [ 50.0, 53.564114, 13.373899 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_1"
+								hitbox_mins = [ -3.429968, -1.127277, -0.904969 ]
+								hitbox_maxs = [ 2.848781, 8.540295, 29.703785 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_2"
+								hitbox_mins = [ -3.646609, -41.244755, -1.810995 ]
+								hitbox_maxs = [ 2.994409, 1.764229, 11.801267 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_3"
+								hitbox_mins = [ -7.940365, -5.984717, -10.24917 ]
+								hitbox_maxs = [ 7.910071, 3.246325, 1.625115 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_1"
+								hitbox_mins = [ -1.457981, -3.141186, -0.965833 ]
+								hitbox_maxs = [ 8.221208, 3.134885, 29.642916 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_2"
+								hitbox_mins = [ -41.24786, -3.313828, -1.823287 ]
+								hitbox_maxs = [ 1.755525, 3.32384, 11.789 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_3"
+								hitbox_mins = [ -5.982544, -7.997903, -10.2489 ]
+								hitbox_maxs = [ 3.611133, 9.316059, 1.726066 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_1"
+								hitbox_mins = [ -3.2066, -8.503875, -0.830562 ]
+								hitbox_maxs = [ 3.064426, 1.220217, 29.778187 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_2"
+								hitbox_mins = [ -3.330152, -1.772162, -1.822222 ]
+								hitbox_maxs = [ 3.316717, 41.249226, 11.790062 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_3"
+								hitbox_mins = [ -9.367509, -2.925437, -10.249763 ]
+								hitbox_maxs = [ 7.946457, 6.35086, 1.592631 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere1"
+								hitbox_mins = [ -21.43895, 0.0, 0.0 ]
+								hitbox_maxs = [ 21.43895, 26.39032, 27.888985 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere2"
+								hitbox_mins = [ 0.0, -21.390404, -0.026087 ]
+								hitbox_maxs = [ 26.56426, 25.185301, 27.837185 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere3"
+								hitbox_mins = [ -25.185308, -26.564272, -0.024572 ]
+								hitbox_maxs = [ 21.390402, 0.0, 27.838699 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -50.0, -50.0, -0.437903 ]
+								hitbox_maxs = [ 50.0, 53.564114, 13.373899 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_1"
+								hitbox_mins = [ -3.429968, -1.127277, -0.904969 ]
+								hitbox_maxs = [ 2.848781, 8.540295, 29.703785 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_2"
+								hitbox_mins = [ -3.646609, -41.244755, -1.810995 ]
+								hitbox_maxs = [ 2.994409, 1.764229, 11.801267 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_3"
+								hitbox_mins = [ -7.940365, -5.984717, -10.24917 ]
+								hitbox_maxs = [ 7.910071, 3.246325, 1.625115 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_1"
+								hitbox_mins = [ -1.457981, -3.141186, -0.965833 ]
+								hitbox_maxs = [ 8.221208, 3.134885, 29.642916 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_2"
+								hitbox_mins = [ -41.24786, -3.313828, -1.823287 ]
+								hitbox_maxs = [ 1.755525, 3.32384, 11.789 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_3"
+								hitbox_mins = [ -5.982544, -7.997903, -10.2489 ]
+								hitbox_maxs = [ 3.611133, 9.316059, 1.726066 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_1"
+								hitbox_mins = [ -3.2066, -8.503875, -0.830562 ]
+								hitbox_maxs = [ 3.064426, 1.220217, 29.778187 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_2"
+								hitbox_mins = [ -3.330152, -1.772162, -1.822222 ]
+								hitbox_maxs = [ 3.316717, 41.249226, 11.790062 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_3"
+								hitbox_mins = [ -9.367509, -2.925437, -10.249763 ]
+								hitbox_maxs = [ 7.946457, 6.35086, 1.592631 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere1"
+								hitbox_mins = [ -21.43895, 0.0, 0.0 ]
+								hitbox_maxs = [ 21.43895, 26.39032, 27.888985 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere2"
+								hitbox_mins = [ 0.0, -21.390404, -0.026087 ]
+								hitbox_maxs = [ 26.56426, 25.185301, 27.837185 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere3"
+								hitbox_mins = [ -25.185308, -26.564272, -0.024572 ]
+								hitbox_maxs = [ 21.390402, 0.0, 27.838699 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "combine_ball_launcher_bg_body_lod0"
+						filename = "models/props/combine_ball_launcher_fbx/mesh/combine_ball_launcher_bg_body_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "combine_ball_launcher_bg_body_lod1"
+						filename = "models/props/combine_ball_launcher_fbx/mesh/combine_ball_launcher_bg_body_lod1.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "combine_ball_launcher_bg_body_lod2"
+						filename = "models/props/combine_ball_launcher_fbx/mesh/combine_ball_launcher_bg_body_lod2.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "combine_ball_launcher_bg_body_lod3"
+						filename = "models/props/combine_ball_launcher_fbx/mesh/combine_ball_launcher_bg_body_lod3.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle_closed"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/combine_ball_launcher_fbx/anim/idle_closed.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idle_open"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/combine_ball_launcher_fbx/anim/idle_open.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "open"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/combine_ball_launcher_fbx/anim/open.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "close"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/combine_ball_launcher_fbx/anim/close.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+"""
+	}
+}

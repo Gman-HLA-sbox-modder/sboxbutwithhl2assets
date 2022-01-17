@@ -1,0 +1,10 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\metal\metalgrate018_color.tga"
+	F_ALPHA_TEST 1
+	TextureTranslucency "materials\metal\metalgrate018_trans.tga"
+}

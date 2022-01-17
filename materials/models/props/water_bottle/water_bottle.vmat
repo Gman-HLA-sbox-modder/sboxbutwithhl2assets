@@ -1,0 +1,11 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\props\water_bottle\water_bottle_color.tga"
+	TextureNormal "materials\models\props\water_bottle\water_bottle_normal.tga"
+	F_SPECULAR 1
+	TextureRoughness "materials\models\props\water_bottle\water_bottle_rough.tga"
+}

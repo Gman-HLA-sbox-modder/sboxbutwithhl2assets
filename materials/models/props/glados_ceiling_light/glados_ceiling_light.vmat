@@ -1,0 +1,13 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\props\glados_ceiling_light\glados_ceiling_light_color.tga"
+	TextureNormal "materials\models\props\glados_ceiling_light\glados_ceiling_light_normal.tga"
+	F_SPECULAR 1
+	TextureRoughness "materials\models\props\glados_ceiling_light\glados_ceiling_light_rough.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\props\glados_ceiling_light\glados_ceiling_light_selfillum.tga"
+}

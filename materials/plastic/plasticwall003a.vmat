@@ -1,0 +1,9 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\plastic\plasticwall003a_color.tga"
+	// $ssbump in original .vmt used, which are unsupported in Source 2. Normal maps skipped to retain visual quality.
+}

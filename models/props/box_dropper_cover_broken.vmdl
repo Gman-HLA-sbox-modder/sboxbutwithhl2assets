@@ -1,0 +1,328 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "scene_root"
+						mass_override = 65.549133
+						inertia_scale = 1.0
+						linear_damping = 0.1
+						angular_damping = 0.2
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_rot1"
+						mass_override = 14.505007
+						inertia_scale = 1.0
+						linear_damping = 0.1
+						angular_damping = 0.2
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_rot2"
+						mass_override = 19.563871
+						inertia_scale = 1.0
+						linear_damping = 0.1
+						angular_damping = 0.2
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_rot3"
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.1
+						angular_damping = 0.2
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsJointList"
+				children = 
+				[
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "scene_root"
+						child_body = "arm_rot1"
+						anchor_origin = [ 0.0, -11.567139, 0.000001 ]
+						anchor_angles = [ 90.0, -0.0, 0.0 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, -0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "arm_rot1"
+						child_body = "arm_rot2"
+						anchor_origin = [ 0.500414, -55.855705, -17.892456 ]
+						anchor_angles = [ 90.0, -0.0, 0.0 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, -0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "arm_rot2"
+						child_body = "arm_rot3"
+						anchor_origin = [ -0.599933, -11.143433, 59.434349 ]
+						anchor_angles = [ 90.0, -0.0, 0.0 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, -0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "scene_root_0_mesh"
+						parent_bone = "scene_root"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_broken_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"scene_root_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_rot1_0_mesh"
+						parent_bone = "arm_rot1"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_broken_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_rot1_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_rot2_0_mesh"
+						parent_bone = "arm_rot2"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_broken_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_rot2_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_rot3_0_mesh"
+						parent_bone = "arm_rot3"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_broken_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_rot3_0_mesh",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -2.527134, -12.565047, -1.891278 ]
+								hitbox_maxs = [ 2.679522, 0.0, 3.720016 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_rot1"
+								hitbox_mins = [ -4.066201, -57.928787, -19.357462 ]
+								hitbox_maxs = [ 4.913507, 0.87281, 1.824535 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_rot2"
+								hitbox_mins = [ -4.770501, -11.800701, -2.555221 ]
+								hitbox_maxs = [ 4.722523, 2.515923, 61.110149 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_rot3"
+								hitbox_mins = [ -1.571503, -0.821312, -0.946358 ]
+								hitbox_maxs = [ 1.775663, 10.200895, 5.983378 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "box_dropper_cover_broken_bg_body_lod0"
+						filename = "models/props/box_dropper_cover_broken_fbx/mesh/box_dropper_cover_broken_bg_body_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "ragdoll"
+						activity_name = "ACT_DIERAGDOLL"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/box_dropper_cover_broken_fbx/anim/ragdoll.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idle_closed"
+						activity_name = "ACT_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/box_dropper_cover_broken_fbx/anim/idle_closed.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+"""
+	}
+}

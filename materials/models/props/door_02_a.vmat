@@ -1,0 +1,13 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\props\door_02_a_color.tga"
+	TextureNormal "materials\models\props\door_02_a_normal.tga"
+	F_SPECULAR 1
+	TextureRoughness "materials\models\props\door_02_a_rough.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\props\door_02_a_selfillum.tga"
+}

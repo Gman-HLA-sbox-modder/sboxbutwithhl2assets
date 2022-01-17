@@ -1,0 +1,11 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\gladdysdestruction\clear_tubes_color.tga"
+	TextureNormal "materials\models\gladdysdestruction\clear_tubes_normal.tga"
+	F_SPECULAR 1
+	TextureRoughness "materials\models\gladdysdestruction\clear_tubes_rough.tga"
+}

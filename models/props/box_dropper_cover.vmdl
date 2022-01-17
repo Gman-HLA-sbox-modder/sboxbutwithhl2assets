@@ -1,0 +1,1414 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"box_dropper_cover_bg_body_lod0",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 50.0
+						meshes = 
+						[
+							"box_dropper_cover_bg_body_lod1",
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_1_slider"
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_1_rot1"
+						mass_override = 1.493807
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_1_rot2"
+						mass_override = 2.014137
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_1_rot3"
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_2_slider"
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_2_rot1"
+						mass_override = 1.493807
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_2_rot2"
+						mass_override = 2.015221
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_2_rot3"
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_3_slider"
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_3_rot1"
+						mass_override = 1.493807
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_3_rot2"
+						mass_override = 2.014158
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_3_rot3"
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_4_slider"
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_4_rot1"
+						mass_override = 1.493808
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_4_rot2"
+						mass_override = 2.015221
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "arm_4_rot3"
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "cover_1"
+						mass_override = 25.777105
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "cover_2"
+						mass_override = 25.777113
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "cover_3"
+						mass_override = 25.777105
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "cover_4"
+						mass_override = 25.777107
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsJointList"
+				children = 
+				[
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_1_slider"
+						child_body = "arm_1_rot1"
+						anchor_origin = [ 0.000004, -11.567131, 0.000004 ]
+						anchor_angles = [ -0.0, 0.0, 0.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_1_rot1"
+						child_body = "arm_1_rot2"
+						anchor_origin = [ 0.530163, -55.855721, -18.041183 ]
+						anchor_angles = [ -0.0, 0.0, 0.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_1_rot2"
+						child_body = "arm_1_rot3"
+						anchor_origin = [ -0.430648, -11.143443, 59.499271 ]
+						anchor_angles = [ -0.0, 0.0, 0.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_2_slider"
+						child_body = "arm_2_rot1"
+						anchor_origin = [ -0.000002, -11.567131, -0.000008 ]
+						anchor_angles = [ -0.000002, 0.0, 0.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_2_rot1"
+						child_body = "arm_2_rot2"
+						anchor_origin = [ 0.481152, -55.855717, 17.981709 ]
+						anchor_angles = [ -0.000002, 0.0, 0.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_2_rot2"
+						child_body = "arm_2_rot3"
+						anchor_origin = [ -0.439253, -11.143447, -59.464478 ]
+						anchor_angles = [ 0.00002, 180.0, 180.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_3_slider"
+						child_body = "arm_3_rot1"
+						anchor_origin = [ 0.0, -11.567139, -0.000004 ]
+						anchor_angles = [ 0.000002, 0.0, 0.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_3_rot1"
+						child_body = "arm_3_rot2"
+						anchor_origin = [ 0.500412, -55.855709, -17.892471 ]
+						anchor_angles = [ 0.000002, 0.0, 0.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_3_rot2"
+						child_body = "arm_3_rot3"
+						anchor_origin = [ -0.599938, -11.143445, 59.434353 ]
+						anchor_angles = [ 0.000002, 0.0, 0.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_4_slider"
+						child_body = "arm_4_rot1"
+						anchor_origin = [ 0.000003, -11.567142, 0.0 ]
+						anchor_angles = [ -0.0, 0.0, 0.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_4_rot1"
+						child_body = "arm_4_rot2"
+						anchor_origin = [ 0.558038, -55.855713, 17.898506 ]
+						anchor_angles = [ -0.0, 0.0, 0.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "arm_4_rot2"
+						child_body = "arm_4_rot3"
+						anchor_origin = [ -0.599932, -11.172658, -59.322739 ]
+						anchor_angles = [ 0.00002, -180.0, 180.0 ]
+						collision_enabled = true
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_1_slider_0_mesh"
+						parent_bone = "arm_1_slider"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_1_slider_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_1_rot1_0_mesh"
+						parent_bone = "arm_1_rot1"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_1_rot1_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_1_rot2_0_mesh"
+						parent_bone = "arm_1_rot2"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_1_rot2_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_1_rot3_0_mesh"
+						parent_bone = "arm_1_rot3"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_1_rot3_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_2_slider_0_mesh"
+						parent_bone = "arm_2_slider"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_2_slider_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_2_rot1_0_mesh"
+						parent_bone = "arm_2_rot1"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_2_rot1_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_2_rot2_0_mesh"
+						parent_bone = "arm_2_rot2"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_2_rot2_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_2_rot3_0_mesh"
+						parent_bone = "arm_2_rot3"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_2_rot3_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_3_slider_0_mesh"
+						parent_bone = "arm_3_slider"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_3_slider_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_3_rot1_0_mesh"
+						parent_bone = "arm_3_rot1"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_3_rot1_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_3_rot2_0_mesh"
+						parent_bone = "arm_3_rot2"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_3_rot2_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_3_rot3_0_mesh"
+						parent_bone = "arm_3_rot3"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_3_rot3_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_4_slider_0_mesh"
+						parent_bone = "arm_4_slider"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_4_slider_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_4_rot1_0_mesh"
+						parent_bone = "arm_4_rot1"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_4_rot1_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_4_rot2_0_mesh"
+						parent_bone = "arm_4_rot2"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_4_rot2_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "arm_4_rot3_0_mesh"
+						parent_bone = "arm_4_rot3"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"arm_4_rot3_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "cover_1_0_mesh"
+						parent_bone = "cover_1"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"cover_1_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "cover_2_0_mesh"
+						parent_bone = "cover_2"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"cover_2_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "cover_3_0_mesh"
+						parent_bone = "cover_3"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"cover_3_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "cover_4_0_mesh"
+						parent_bone = "cover_4"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/box_dropper_cover_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"cover_4_0_mesh",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -34.063774, -0.484745, -34.076008 ]
+								hitbox_maxs = [ 34.155308, 67.008171, 34.143074 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover_4"
+								hitbox_mins = [ -32.493671, -2.6083, -25.455843 ]
+								hitbox_maxs = [ 32.493679, 3.605702, 20.408831 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover_3"
+								hitbox_mins = [ -32.493671, -2.6083, -20.408831 ]
+								hitbox_maxs = [ 32.493679, 3.605702, 25.455843 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover_2"
+								hitbox_mins = [ -32.493675, -2.608298, -25.455845 ]
+								hitbox_maxs = [ 32.493683, 3.605714, 20.408831 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover_1"
+								hitbox_mins = [ -32.493675, -2.608298, -20.408829 ]
+								hitbox_maxs = [ 32.493671, 3.605714, 25.455843 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_4_slider"
+								hitbox_mins = [ -2.591843, -12.565053, -3.655279 ]
+								hitbox_maxs = [ 2.614813, 0.0, 1.956014 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_4_rot1"
+								hitbox_mins = [ -4.13092, -57.928806, -1.759799 ]
+								hitbox_maxs = [ 4.84879, 0.872803, 19.422165 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_4_rot2"
+								hitbox_mins = [ -4.904234, -11.804893, -61.071609 ]
+								hitbox_maxs = [ 4.593581, 2.515908, 2.613877 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_4_rot3"
+								hitbox_mins = [ -1.652674, -0.792078, -0.893404 ]
+								hitbox_maxs = [ 1.695365, 10.230132, 6.036327 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_3_slider"
+								hitbox_mins = [ -2.527119, -12.565053, -1.891289 ]
+								hitbox_maxs = [ 2.679537, 0.0, 3.720002 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_3_rot1"
+								hitbox_mins = [ -4.066196, -57.928806, -19.357439 ]
+								hitbox_maxs = [ 4.913511, 0.872803, 1.824523 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_3_rot2"
+								hitbox_mins = [ -4.781886, -11.8049, -2.555198 ]
+								hitbox_maxs = [ 4.715929, 2.515901, 61.130291 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_3_rot3"
+								hitbox_mins = [ -1.57302, -0.821301, -0.946327 ]
+								hitbox_maxs = [ 1.775019, 10.20091, 5.983403 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_2_slider"
+								hitbox_mins = [ -2.479726, -12.565038, -3.672612 ]
+								hitbox_maxs = [ 2.726928, 0.0, 1.938681 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_2_rot1"
+								hitbox_mins = [ -4.018772, -57.928776, -1.777132 ]
+								hitbox_maxs = [ 4.960938, 0.872818, 19.404856 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_2_rot2"
+								hitbox_mins = [ -4.715201, -11.804904, -61.172104 ]
+								hitbox_maxs = [ 4.782614, 2.515929, 2.513376 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_2_rot3"
+								hitbox_mins = [ -1.681012, -0.821305, -0.934642 ]
+								hitbox_maxs = [ 1.667027, 10.200903, 5.995094 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_1_slider"
+								hitbox_mins = [ -2.544451, -12.565038, -2.003404 ]
+								hitbox_maxs = [ 2.662203, 0.0, 3.607888 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_1_rot1"
+								hitbox_mins = [ -4.083504, -57.928776, -19.469585 ]
+								hitbox_maxs = [ 4.896202, 0.872818, 1.712408 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_1_rot2"
+								hitbox_mins = [ -4.828949, -11.804904, -2.518614 ]
+								hitbox_maxs = [ 4.668864, 2.515929, 61.166859 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_1_rot3"
+								hitbox_mins = [ -1.789344, -0.821304, -0.974678 ]
+								hitbox_maxs = [ 1.558695, 10.200903, 5.955056 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -34.063774, -0.484745, -34.076008 ]
+								hitbox_maxs = [ 34.155308, 67.008171, 34.143074 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover_4"
+								hitbox_mins = [ -32.493671, -2.6083, -25.455843 ]
+								hitbox_maxs = [ 32.493679, 3.605702, 20.408831 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover_3"
+								hitbox_mins = [ -32.493671, -2.6083, -20.408831 ]
+								hitbox_maxs = [ 32.493679, 3.605702, 25.455843 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover_2"
+								hitbox_mins = [ -32.493675, -2.608298, -25.455845 ]
+								hitbox_maxs = [ 32.493683, 3.605714, 20.408831 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover_1"
+								hitbox_mins = [ -32.493675, -2.608298, -20.408829 ]
+								hitbox_maxs = [ 32.493671, 3.605714, 25.455843 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_4_slider"
+								hitbox_mins = [ -2.591843, -12.565053, -3.655279 ]
+								hitbox_maxs = [ 2.614813, 0.0, 1.956014 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_4_rot1"
+								hitbox_mins = [ -4.13092, -57.928806, -1.759799 ]
+								hitbox_maxs = [ 4.84879, 0.872803, 19.422165 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_4_rot2"
+								hitbox_mins = [ -4.904234, -11.804893, -61.071609 ]
+								hitbox_maxs = [ 4.593581, 2.515908, 2.613877 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_4_rot3"
+								hitbox_mins = [ -1.652674, -0.792078, -0.893404 ]
+								hitbox_maxs = [ 1.695365, 10.230132, 6.036327 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_3_slider"
+								hitbox_mins = [ -2.527119, -12.565053, -1.891289 ]
+								hitbox_maxs = [ 2.679537, 0.0, 3.720002 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_3_rot1"
+								hitbox_mins = [ -4.066196, -57.928806, -19.357439 ]
+								hitbox_maxs = [ 4.913511, 0.872803, 1.824523 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_3_rot2"
+								hitbox_mins = [ -4.781886, -11.8049, -2.555198 ]
+								hitbox_maxs = [ 4.715929, 2.515901, 61.130291 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_3_rot3"
+								hitbox_mins = [ -1.57302, -0.821301, -0.946327 ]
+								hitbox_maxs = [ 1.775019, 10.20091, 5.983403 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_2_slider"
+								hitbox_mins = [ -2.479726, -12.565038, -3.672612 ]
+								hitbox_maxs = [ 2.726928, 0.0, 1.938681 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_2_rot1"
+								hitbox_mins = [ -4.018772, -57.928776, -1.777132 ]
+								hitbox_maxs = [ 4.960938, 0.872818, 19.404856 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_2_rot2"
+								hitbox_mins = [ -4.715201, -11.804904, -61.172104 ]
+								hitbox_maxs = [ 4.782614, 2.515929, 2.513376 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_2_rot3"
+								hitbox_mins = [ -1.681012, -0.821305, -0.934642 ]
+								hitbox_maxs = [ 1.667027, 10.200903, 5.995094 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_1_slider"
+								hitbox_mins = [ -2.544451, -12.565038, -2.003404 ]
+								hitbox_maxs = [ 2.662203, 0.0, 3.607888 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_1_rot1"
+								hitbox_mins = [ -4.083504, -57.928776, -19.469585 ]
+								hitbox_maxs = [ 4.896202, 0.872818, 1.712408 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_1_rot2"
+								hitbox_mins = [ -4.828949, -11.804904, -2.518614 ]
+								hitbox_maxs = [ 4.668864, 2.515929, 61.166859 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_1_rot3"
+								hitbox_mins = [ -1.789344, -0.821304, -0.974678 ]
+								hitbox_maxs = [ 1.558695, 10.200903, 5.955056 ]
+								surface_property = "metalpanel"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "box_dropper_cover_bg_body_lod0"
+						filename = "models/props/box_dropper_cover_fbx/mesh/box_dropper_cover_bg_body_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "box_dropper_cover_bg_body_lod1"
+						filename = "models/props/box_dropper_cover_fbx/mesh/box_dropper_cover_bg_body_lod1.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle_closed"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/box_dropper_cover_fbx/anim/idle_closed.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "open"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_keys = 
+								{
+									name = "Doors.Move14"
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/box_dropper_cover_fbx/anim/open.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "close"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_keys = 
+								{
+									name = "Doors.FullOpen14"
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/box_dropper_cover_fbx/anim/close.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+"""
+	}
+}

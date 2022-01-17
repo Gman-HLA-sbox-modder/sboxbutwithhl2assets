@@ -1,0 +1,10 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\nature\escape_vista_02_color.tga"
+	F_TRANSLUCENT 1
+	TextureTranslucency "materials\nature\escape_vista_02_trans.tga"
+}

@@ -1,0 +1,13 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\props\sign_frame02\sign_frame02_color.tga"
+	g_vReflectanceRange "[0.000 0.5]"
+	TextureAmbientOcclusion "materials\models\props\sign_frame02\sign_frame02_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "1.000"
+	F_SPECULAR 1
+	TextureRoughness "materials\models\props\sign_frame02\sign_frame02_rough.tga"
+}

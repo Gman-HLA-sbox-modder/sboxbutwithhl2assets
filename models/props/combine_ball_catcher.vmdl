@@ -1,0 +1,775 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"combine_ball_catcher_bg_body_lod0",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 20.0
+						meshes = 
+						[
+							"combine_ball_catcher_bg_body_lod1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 35.0
+						meshes = 
+						[
+							"combine_ball_catcher_bg_body_lod2",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 50.0
+						meshes = 
+						[
+							"combine_ball_catcher_bg_body_lod3",
+						]
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "ball_attachment"
+						parent_bone = "base"
+						relative_origin = [ 0.0, 8.0, -0.0 ]
+						relative_angles = [ -0.0, 90.0, -0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -45.235172, -21.250099, -53.564114 ]
+								hitbox_maxs = [ 45.044178, 10.519909, 37.110527 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "base"
+								hitbox_mins = [ -14.769682, 0.0, -14.76644 ]
+								hitbox_maxs = [ 14.900078, 6.097631, 14.904816 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_1"
+								hitbox_mins = [ -2.852915, -0.599442, -9.668833 ]
+								hitbox_maxs = [ 3.425835, 28.358692, 1.065544 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_2"
+								hitbox_mins = [ -3.108465, -1.818465, -1.773286 ]
+								hitbox_maxs = [ 3.532553, 1.260474, 23.697693 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_3"
+								hitbox_mins = [ -3.850833, -2.65455, -1.484104 ]
+								hitbox_maxs = [ 3.940056, 22.288853, 0.918845 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_1"
+								hitbox_mins = [ -0.937685, 0.0, -3.38014 ]
+								hitbox_maxs = [ 10.116908, 29.00238, 2.894504 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_2"
+								hitbox_mins = [ -23.734062, -1.766684, -3.36511 ]
+								hitbox_maxs = [ 1.739545, 1.21693, 3.2959 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_3"
+								hitbox_mins = [ -0.911386, -2.653807, -3.662228 ]
+								hitbox_maxs = [ 1.499879, 22.289604, 4.13256 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_1"
+								hitbox_mins = [ -9.543048, 0.0, -3.477916 ]
+								hitbox_maxs = [ 0.945328, 28.985998, 2.792274 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_2"
+								hitbox_mins = [ -1.713999, -1.731795, -3.466673 ]
+								hitbox_maxs = [ 23.609543, 1.817, 3.400905 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_3"
+								hitbox_mins = [ -1.505561, -2.654312, -3.784322 ]
+								hitbox_maxs = [ 0.915499, 22.289095, 4.013103 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover1"
+								hitbox_mins = [ -22.026735, -1.317877, -11.959667 ]
+								hitbox_maxs = [ 23.622156, 0.232131, 5.075991 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover2"
+								hitbox_mins = [ -24.079958, -1.317872, -4.244191 ]
+								hitbox_maxs = [ 26.334949, 0.232151, 15.906385 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover3"
+								hitbox_mins = [ -24.902735, -1.317872, -5.667449 ]
+								hitbox_maxs = [ 25.545111, 0.23215, 14.017901 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "spinner_casing"
+								hitbox_mins = [ -27.536575, -12.454051, -27.645687 ]
+								hitbox_maxs = [ 27.750498, 6.918872, 27.641386 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "spinners"
+								hitbox_mins = [ -25.181396, -12.237871, -26.260422 ]
+								hitbox_maxs = [ 26.179344, 7.977351, 22.136377 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -45.235172, -21.250099, -53.564114 ]
+								hitbox_maxs = [ 45.044178, 10.519909, 37.110527 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "base"
+								hitbox_mins = [ -14.769682, 0.0, -14.76644 ]
+								hitbox_maxs = [ 14.900078, 6.097631, 14.904816 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_1"
+								hitbox_mins = [ -2.852915, -0.599442, -9.668833 ]
+								hitbox_maxs = [ 3.425835, 28.358692, 1.065544 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_2"
+								hitbox_mins = [ -3.108465, -1.818465, -1.773286 ]
+								hitbox_maxs = [ 3.532553, 1.260474, 23.697693 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_3"
+								hitbox_mins = [ -3.850833, -2.65455, -1.484104 ]
+								hitbox_maxs = [ 3.940056, 22.288853, 0.918845 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_1"
+								hitbox_mins = [ -0.937685, 0.0, -3.38014 ]
+								hitbox_maxs = [ 10.116908, 29.00238, 2.894504 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_2"
+								hitbox_mins = [ -23.734062, -1.766684, -3.36511 ]
+								hitbox_maxs = [ 1.739545, 1.21693, 3.2959 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_3"
+								hitbox_mins = [ -0.911386, -2.653807, -3.662228 ]
+								hitbox_maxs = [ 1.499879, 22.289604, 4.13256 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_1"
+								hitbox_mins = [ -9.543048, 0.0, -3.477916 ]
+								hitbox_maxs = [ 0.945328, 28.985998, 2.792274 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_2"
+								hitbox_mins = [ -1.713999, -1.731795, -3.466673 ]
+								hitbox_maxs = [ 23.609543, 1.817, 3.400905 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_3"
+								hitbox_mins = [ -1.505561, -2.654312, -3.784322 ]
+								hitbox_maxs = [ 0.915499, 22.289095, 4.013103 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover1"
+								hitbox_mins = [ -22.026735, -1.317877, -11.959667 ]
+								hitbox_maxs = [ 23.622156, 0.232131, 5.075991 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover2"
+								hitbox_mins = [ -24.079958, -1.317872, -4.244191 ]
+								hitbox_maxs = [ 26.334949, 0.232151, 15.906385 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover3"
+								hitbox_mins = [ -24.902735, -1.317872, -5.667449 ]
+								hitbox_maxs = [ 25.545111, 0.23215, 14.017901 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "spinner_casing"
+								hitbox_mins = [ -27.536575, -12.454051, -27.645687 ]
+								hitbox_maxs = [ 27.750498, 6.918872, 27.641386 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "spinners"
+								hitbox_mins = [ -25.181396, -12.237871, -26.260422 ]
+								hitbox_maxs = [ 26.179344, 7.977351, 22.136377 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -45.235172, -21.250099, -53.564114 ]
+								hitbox_maxs = [ 45.044178, 10.519909, 37.110527 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "base"
+								hitbox_mins = [ -14.769682, 0.0, -14.76644 ]
+								hitbox_maxs = [ 14.900078, 6.097631, 14.904816 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_1"
+								hitbox_mins = [ -2.852915, -0.599442, -9.668833 ]
+								hitbox_maxs = [ 3.425835, 28.358692, 1.065544 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_2"
+								hitbox_mins = [ -3.108465, -1.818465, -1.773286 ]
+								hitbox_maxs = [ 3.532553, 1.260474, 23.697693 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_3"
+								hitbox_mins = [ -3.850833, -2.65455, -1.484104 ]
+								hitbox_maxs = [ 3.940056, 22.288853, 0.918845 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_1"
+								hitbox_mins = [ -0.937685, 0.0, -3.38014 ]
+								hitbox_maxs = [ 10.116908, 29.00238, 2.894504 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_2"
+								hitbox_mins = [ -23.734062, -1.766684, -3.36511 ]
+								hitbox_maxs = [ 1.739545, 1.21693, 3.2959 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_3"
+								hitbox_mins = [ -0.911386, -2.653807, -3.662228 ]
+								hitbox_maxs = [ 1.499879, 22.289604, 4.13256 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_1"
+								hitbox_mins = [ -9.543048, 0.0, -3.477916 ]
+								hitbox_maxs = [ 0.945328, 28.985998, 2.792274 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_2"
+								hitbox_mins = [ -1.713999, -1.731795, -3.466673 ]
+								hitbox_maxs = [ 23.609543, 1.817, 3.400905 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_3"
+								hitbox_mins = [ -1.505561, -2.654312, -3.784322 ]
+								hitbox_maxs = [ 0.915499, 22.289095, 4.013103 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover1"
+								hitbox_mins = [ -22.026735, -1.317877, -11.959667 ]
+								hitbox_maxs = [ 23.622156, 0.232131, 5.075991 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover2"
+								hitbox_mins = [ -24.079958, -1.317872, -4.244191 ]
+								hitbox_maxs = [ 26.334949, 0.232151, 15.906385 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover3"
+								hitbox_mins = [ -24.902735, -1.317872, -5.667449 ]
+								hitbox_maxs = [ 25.545111, 0.23215, 14.017901 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "spinner_casing"
+								hitbox_mins = [ -27.536575, -12.454051, -27.645687 ]
+								hitbox_maxs = [ 27.750498, 6.918872, 27.641386 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "spinners"
+								hitbox_mins = [ -25.181396, -12.237871, -26.260422 ]
+								hitbox_maxs = [ 26.179344, 7.977351, 22.136377 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -45.235172, -21.250099, -53.564114 ]
+								hitbox_maxs = [ 45.044178, 10.519909, 37.110527 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "base"
+								hitbox_mins = [ -14.769682, 0.0, -14.76644 ]
+								hitbox_maxs = [ 14.900078, 6.097631, 14.904816 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_1"
+								hitbox_mins = [ -2.852915, -0.599442, -9.668833 ]
+								hitbox_maxs = [ 3.425835, 28.358692, 1.065544 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_2"
+								hitbox_mins = [ -3.108465, -1.818465, -1.773286 ]
+								hitbox_maxs = [ 3.532553, 1.260474, 23.697693 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm1_3"
+								hitbox_mins = [ -3.850833, -2.65455, -1.484104 ]
+								hitbox_maxs = [ 3.940056, 22.288853, 0.918845 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_1"
+								hitbox_mins = [ -0.937685, 0.0, -3.38014 ]
+								hitbox_maxs = [ 10.116908, 29.00238, 2.894504 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_2"
+								hitbox_mins = [ -23.734062, -1.766684, -3.36511 ]
+								hitbox_maxs = [ 1.739545, 1.21693, 3.2959 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm2_3"
+								hitbox_mins = [ -0.911386, -2.653807, -3.662228 ]
+								hitbox_maxs = [ 1.499879, 22.289604, 4.13256 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_1"
+								hitbox_mins = [ -9.543048, 0.0, -3.477916 ]
+								hitbox_maxs = [ 0.945328, 28.985998, 2.792274 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_2"
+								hitbox_mins = [ -1.713999, -1.731795, -3.466673 ]
+								hitbox_maxs = [ 23.609543, 1.817, 3.400905 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm3_3"
+								hitbox_mins = [ -1.505561, -2.654312, -3.784322 ]
+								hitbox_maxs = [ 0.915499, 22.289095, 4.013103 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover1"
+								hitbox_mins = [ -22.026735, -1.317877, -11.959667 ]
+								hitbox_maxs = [ 23.622156, 0.232131, 5.075991 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover2"
+								hitbox_mins = [ -24.079958, -1.317872, -4.244191 ]
+								hitbox_maxs = [ 26.334949, 0.232151, 15.906385 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cover3"
+								hitbox_mins = [ -24.902735, -1.317872, -5.667449 ]
+								hitbox_maxs = [ 25.545111, 0.23215, 14.017901 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "spinner_casing"
+								hitbox_mins = [ -27.536575, -12.454051, -27.645687 ]
+								hitbox_maxs = [ 27.750498, 6.918872, 27.641386 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "spinners"
+								hitbox_mins = [ -25.181396, -12.237871, -26.260422 ]
+								hitbox_maxs = [ 26.179344, 7.977351, 22.136377 ]
+								surface_property = "combine_metal"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "combine_ball_catcher_bg_body_lod0"
+						filename = "models/props/combine_ball_catcher_fbx/mesh/combine_ball_catcher_bg_body_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "combine_ball_catcher_bg_body_lod1"
+						filename = "models/props/combine_ball_catcher_fbx/mesh/combine_ball_catcher_bg_body_lod1.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "combine_ball_catcher_bg_body_lod2"
+						filename = "models/props/combine_ball_catcher_fbx/mesh/combine_ball_catcher_bg_body_lod2.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "combine_ball_catcher_bg_body_lod3"
+						filename = "models/props/combine_ball_catcher_fbx/mesh/combine_ball_catcher_bg_body_lod3.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/combine_ball_catcher_fbx/anim/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "closed"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/combine_ball_catcher_fbx/anim/closed.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "close"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/combine_ball_catcher_fbx/anim/close.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+"""
+	}
+}

@@ -1,0 +1,13 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\nature\hazard_liquid_color.tga"
+	TextureNormal "materials\nature\hazard_liquid_normal.tga"
+	TextureAmbientOcclusion "materials\nature\hazard_liquid_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\nature\hazard_liquid_selfillum.tga"
+}

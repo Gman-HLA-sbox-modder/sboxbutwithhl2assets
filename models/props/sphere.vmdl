@@ -1,0 +1,256 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Metal.large"
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "MaterialGroup"
+						name = "1"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/sphere.vmat"
+								to = "materials/models/props/sphere_lit01.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "2"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/sphere.vmat"
+								to = "materials/models/props/sphere_lit03.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "3"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/sphere.vmat"
+								to = "materials/models/props/sphere_lit04.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "4"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/sphere.vmat"
+								to = "materials/models/props/sphere_lit05.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "5"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/sphere.vmat"
+								to = "materials/models/props/sphere_lit06.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "6"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/sphere.vmat"
+								to = "materials/models/props/sphere_lit07.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "7"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/sphere.vmat"
+								to = "materials/models/props/sphere_lit08.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "8"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/sphere.vmat"
+								to = "materials/models/props/sphere_lit09.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "9"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/sphere.vmat"
+								to = "materials/models/props/sphere_lit10.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "sphere_physbox"
+						mass_override = 85.0
+						inertia_scale = 1.0
+						linear_damping = 0.1
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "sphere_physbox_0_mesh"
+						parent_bone = "sphere_physbox"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/sphere_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"sphere_physbox_0_mesh",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "sphere_reference"
+								hitbox_mins = [ -20.0, -20.0, -20.0 ]
+								hitbox_maxs = [ 20.0, 20.0, 20.0 ]
+								surface_property = "sphere"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "sphere_bg_body_lod0"
+						filename = "models/props/sphere_fbx/mesh/sphere_bg_body_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props/sphere_fbx/anim/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+"""
+	}
+}

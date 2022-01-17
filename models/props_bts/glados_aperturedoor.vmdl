@@ -1,0 +1,221 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "aperture_door"
+								hitbox_mins = [ -92.193359, -161.578812, -101.88578 ]
+								hitbox_maxs = [ 95.760971, 46.742874, 101.88578 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "root"
+								hitbox_mins = [ -58.483028, -2.068866, -55.672504 ]
+								hitbox_maxs = [ 58.501446, 0.0, 55.621166 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cube1"
+								hitbox_mins = [ -27.819147, -2.224871, -33.010948 ]
+								hitbox_maxs = [ 50.179478, 2.07294, 71.703552 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cube2"
+								hitbox_mins = [ -27.972843, -2.224855, -33.253273 ]
+								hitbox_maxs = [ 50.505756, 2.072948, 71.339195 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cube3"
+								hitbox_mins = [ -32.845081, -2.224844, -50.013523 ]
+								hitbox_maxs = [ 71.918304, 2.072976, 27.795227 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cube5"
+								hitbox_mins = [ -50.126694, -2.224838, -71.775055 ]
+								hitbox_maxs = [ 27.871933, 2.07297, 32.939457 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cube6"
+								hitbox_mins = [ -49.814644, -2.224851, -72.238899 ]
+								hitbox_maxs = [ 27.689308, 2.072955, 32.596012 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cube7"
+								hitbox_mins = [ -72.013901, -2.224871, -27.749929 ]
+								hitbox_maxs = [ 32.769295, 2.07295, 49.977947 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cube8"
+								hitbox_mins = [ -71.767632, -2.224882, -27.817263 ]
+								hitbox_maxs = [ 32.957794, 2.072946, 50.140266 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cube9"
+								hitbox_mins = [ -27.648125, -2.224884, -32.64748 ]
+								hitbox_maxs = [ 49.86076, 2.072939, 72.186325 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cube10"
+								hitbox_mins = [ -32.602978, -2.22485, -49.851322 ]
+								hitbox_maxs = [ 72.232346, 2.07297, 27.650787 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "cube4"
+								hitbox_mins = [ -33.007462, -2.224838, -50.305294 ]
+								hitbox_maxs = [ 71.657272, 2.07298, 27.874493 ]
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "glados_aperturedoor_bg_body_lod0"
+						filename = "models/props_bts/glados_aperturedoor_fbx/mesh/glados_aperturedoor_bg_body_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props_bts/glados_aperturedoor_fbx/anim/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "open"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props_bts/glados_aperturedoor_fbx/anim/open.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "close"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/props_bts/glados_aperturedoor_fbx/anim/close.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+"""
+	}
+}

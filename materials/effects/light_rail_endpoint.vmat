@@ -1,0 +1,10 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	F_TRANSLUCENT 1
+	F_ADDITIVE_BLEND 1
+	TextureTranslucency "materials\effects\light_rail_endpoint_trans.tga"
+}

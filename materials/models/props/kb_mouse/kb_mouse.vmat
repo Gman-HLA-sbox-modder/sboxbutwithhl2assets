@@ -1,0 +1,13 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\props\kb_mouse\kb_mouse_color.tga"
+	TextureNormal "materials\models\props\kb_mouse\kb_mouse_normal.tga"
+	F_SPECULAR 1
+	TextureRoughness "materials\models\props\kb_mouse\kb_mouse_rough.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\props\kb_mouse\kb_mouse_selfillum.tga"
+}

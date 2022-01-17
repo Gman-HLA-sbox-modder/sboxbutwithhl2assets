@@ -1,0 +1,12 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\props\box_dropper_tube_color.tga"
+	TextureNormal "materials\models\props\box_dropper_tube_normal.tga"
+	F_TRANSLUCENT 1
+	F_ADDITIVE_BLEND 1
+	TextureTranslucency "materials\models\props\box_dropper_tube_trans.tga"
+}

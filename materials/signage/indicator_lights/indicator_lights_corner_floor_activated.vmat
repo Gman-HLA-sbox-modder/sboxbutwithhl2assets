@@ -1,0 +1,10 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\signage\indicator_lights\indicator_lights_corner_floor_activated_color.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\signage\indicator_lights\indicator_lights_corner_floor_activated_selfillum.tga"
+}

@@ -1,0 +1,10 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\slides\slide1_color.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\slides\slide1_selfillum.tga"
+}
