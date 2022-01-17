@@ -1,0 +1,13 @@
+{
+  "SharedAssets": "*.*",
+  "Title": "Sandboxbutwithhl2assets",
+  "Type": "game",
+  "Org": "local",
+  "Ident": "sandboxmoremdls",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "HasCode": true,
+  "CodePath": "code",
+  "RootNamespace": "Sandbox"
+}
